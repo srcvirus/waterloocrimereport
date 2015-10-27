@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+    <!-- Load Google maps javascript API -->   
+    <script type = "text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAWFEJVZUtmrffAQD2zQUILCnVCu7ck1k&sensor=false&region=CA">
+    </script>
+
+    <script type = "text/javascript"
+            src = "js/map_scripts.js">
+    </script>
+    
+    <script type = "text/javascript"
+            src = "js/jQuery.js">
+    </script>
+    
+    <script type = "text/javascript"
+            src = "js/flot/jquery.flot.js">
+    </script>
+    
+    <script type = "text/javascript"
+            src = "js/flot/jquery.flot.pie.js">
+    </script>
+       
+    <script type = "text/javascript"
+            src = "js/flot/jquery.flot.time.js">
+    </script>
+    
+    <script type = "text/javascript"
+            src = "js/flot/jquery.flot.stack.js">
+    </script>
+    
+    <script type = "text/javascript"
+            src = "js/flot/jquery.flot.axislabels.js">
+    </script>    
+    
+    <script type="text/javascript" src="js/flot/jquery.flot.symbol.js"></script>
+</head>
+
+<body>
+    <div class = "page-header">
+        <table>
+            <tr>
+                <td> <input type = 'button' value = '24-Hour Map' class = 'button' id = 'twhrbutton' onclick = 'buttonAction()'/> </td>
+                <td> <input type = 'button' value = 'Current Month Summary' class = 'button' id = 'cur_mon_summary' onclick = 'buttonAction()'/> </td>
+                <td> <input type = 'button' value = '7-Day Trend' class = 'button' id = 'svdaytrend' onclick = 'buttonAction()'/> </td>
+            </tr>
+        </table>
+    </div>
+    <div class = "page-container">
+        <div id="seven-day-trend"></div><div id="labeler"></div>
+        <div id="map-canvas"></div>
+        <div id="current-month-summary"></div>
+    </div>
+</body>
+</html>

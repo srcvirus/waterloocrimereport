@@ -1,0 +1,65 @@
+html 
+{ 
+    height: 100% 
+}
+
+body 
+{
+    height: 100%; 
+    margin: 0; 
+    padding: 0 
+}
+
+
+#map-canvas
+{
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+}
+
+#current-month-summary
+{
+    height: 50%;
+    width: 100%;
+    margin: 1%;
+}
+
+#seven-day-trend
+{
+    height: 80%;
+    width: 80%;
+    margin: 5%;
+}
+.page-header
+{
+    margin-top: 1%;
+    padding: 5px 5px;
+    padding-left: 8%;
+    border-bottom: 2px solid #cf8a05;
+    border-top: 2px solid #cf8a05;
+    background: #ededed;
+}
+
+.page-container
+{
+    width: 60%;
+    height: 100%;
+    padding-top: 0px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+    padding-left: 80px;
+}
+
+.button
+{
+    padding: 5px 10px 6px;
+    font-size: 16px;
+    background-color: #f0ad4e;
+    font-weight: bold;
+    text-shadow: 1px 1px #f0ad4e;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #eea236;
+    cursor: pointer;
+}
